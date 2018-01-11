@@ -33,6 +33,8 @@ defmodule Cleanex.Mixfile do
 			{ :power_assert,   "~> 0.1.1",  only: :test }, 
 			{ :mix_test_watch, "~> 0.5.0",  only: :dev, runtime: false }, 
 			{ :dialyxir,       "~> 0.5.1" }, 
+
+			{ :smallex,             "~> 0.0.9" }, 
 		]
 	end
 end
